@@ -1,6 +1,4 @@
-Testing For Hostinger and Github
-
-dadwadwadaw
+Testing For Hostinger and Github PART 1
 ---------------------------------------------------------------
 Assets
 Bg Color - #05417C
