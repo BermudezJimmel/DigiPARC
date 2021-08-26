@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-width: 100px;
+  max-width: 120px;
 }
 
 @media (max-width: 992px) {
