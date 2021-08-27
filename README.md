@@ -1,2 +1,2 @@
-# DigiPARC - trying beta test
+# DigiPARC - trying beta test ito na talaga
 
