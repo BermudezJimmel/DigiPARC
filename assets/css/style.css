@@ -1546,3 +1546,7 @@ section {
 #footer .credits a:hover {
   color: #05417C;
 }
+
+#footer img{
+  max-width: 300px;
+}
