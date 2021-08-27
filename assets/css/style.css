@@ -129,13 +129,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-width: 120px;
+  max-width: 200px;
+  margin: 10px 10px;
 }
 
 @media (max-width: 992px) {
   #header {
     border: 0;
     padding: 15px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  #header .logo img {
+    max-width: 100px;
+    /* margin: 10px 10px; */
   }
 }
 
