@@ -839,6 +839,10 @@ section {
   position: relative;
 }
 
+.counts .bold{
+ font-weight: bold;
+}
+
 .counts::before {
   content: "";
   position: absolute;
