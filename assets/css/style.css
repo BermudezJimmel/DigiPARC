@@ -701,7 +701,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #282828;
+  color: #05417C;
   transition: ease-in-out 0.3s;
 }
 
@@ -713,11 +713,11 @@ section {
 
 .services .icon-box:hover {
   transform: translateY(-10px);
-  border-color: #05417C;
+  border-color: #0048C0;
 }
 
 .services .icon-box:hover h4 a {
-  color: #05417C;
+  color: #0048C0;
 }
 
 .services .icon img {
