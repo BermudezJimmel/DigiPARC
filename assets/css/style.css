@@ -1024,7 +1024,7 @@ section {
   margin-top: 15px;
   font-size: 25px;
   font-weight: bold;
-  color: #282828;
+  color: #05417C;
 }
 
 .pricing .box h4 {
@@ -1655,7 +1655,7 @@ section {
 .testimonial {
   min-height: 375px;
   position: relative;
-  background: url(https://i.ibb.co/PTJDkgb/testimonials.jpg);
+  background: url(/assets/img/testimonial/Banner.png);
   padding-top: 50px;
   padding-bottom: 50px;
   background-position: center;
