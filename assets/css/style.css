@@ -601,7 +601,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   color: #777777;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 /*--------------------------------------------------------------
@@ -999,7 +999,7 @@ section {
 }
 
 .pricing .bold {
-  font-weight: bold;
+  
   color: #1A324A;
   font-size: 16px;
 }
