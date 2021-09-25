@@ -841,6 +841,7 @@ section {
 
 .counts .bold{
  font-weight: bold;
+ 
 }
 
 .counts::before {
