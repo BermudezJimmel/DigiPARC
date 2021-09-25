@@ -1003,6 +1003,8 @@ section {
   color: #1A324A;
 }
 
+
+
 .pricing .box {
   padding: 40px 20px;
   text-align: center;
@@ -1014,11 +1016,10 @@ section {
 }
 
 .pricing .box h3 {
-  font-weight: 400;
   padding: 15px;
   margin-top: 15px;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: bold;
   color: #282828;
 }
 
