@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #00b371;
+  background: #0048C0;
   color: #fff;
 }
 
@@ -752,7 +752,7 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #00b371;
+  background: #0048C0;
 }
 
 @media (max-width: 1024px) {
@@ -1089,8 +1089,8 @@ section {
 }
 
 .pricing .recommended .btn-buy:hover {
-  background: #00b371;
-  border-color: #00b371;
+  background: #0048C0;
+  border-color: #0048C0;
 }
 
 .pricing .recommended-badge {
@@ -1346,7 +1346,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #00b371;
+  background: #0048C0;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1543,7 +1543,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #00b371;
+  background: #0048C0;
   color: #fff;
   text-decoration: none;
 }
@@ -1557,7 +1557,7 @@ section {
 }
 
 #footer .credits a {
-  color: #00b371;
+  color: #0048C0;
   transition: 0.3s;
 }
 
