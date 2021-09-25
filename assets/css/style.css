@@ -586,6 +586,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   text-align: center;
+  color: #05417C;
 }
 
 .section-title h2::after {
