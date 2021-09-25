@@ -993,6 +993,10 @@ section {
   background-color: #f9f9f9;
 }
 
+.pricing img{
+  max-width: 500px;
+}
+
 .pricing .bold {
   font-weight: bold;
   color: #1A324A;
@@ -1109,6 +1113,12 @@ section {
   background: #edfbf0;
   color: #05417C;
   border-radius: 50px;
+}
+
+@media (max-width: 992px) {
+  .pricing img{
+    max-width: 290px;
+  }
 }
 
 /*--------------------------------------------------------------
