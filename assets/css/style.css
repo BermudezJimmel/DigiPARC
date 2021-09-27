@@ -1233,11 +1233,11 @@ section {
 }
 
 @media (max-width: 992px) {
-  .faq {
-    /* img {
+  /* .faq {
+    img {
       padding-top: 30px;
-    } */
-  }
+    }
+  } */
   .faq .content {
     padding-top: 30px;
   }
@@ -1434,7 +1434,7 @@ section {
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
-  padding-top: 40px;
+  padding-top: 15px;
 }
 
 .portfolio-details .portfolio-details-container {
@@ -1448,7 +1448,7 @@ section {
 
 .portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
-  text-align: left;
+  text-align: center;
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot {
@@ -1493,7 +1493,7 @@ section {
 }
 
 .portfolio-details .portfolio-description {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1501,6 +1501,7 @@ section {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #05417C;
 }
 
 .portfolio-details .portfolio-description p {
