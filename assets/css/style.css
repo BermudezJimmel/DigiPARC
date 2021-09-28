@@ -416,7 +416,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   background: url("../img/hero-bg.jpg") center center;
   background-size: cover;
   position: relative;
@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 31, 61, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -694,6 +694,7 @@ section {
 
 .services .section-title p{
   padding-bottom: 30px;
+  text-align: center;
 }
 
 .services .icon-box .icon {
@@ -975,6 +976,7 @@ section {
 
 .counts .bold{
  font-weight: bold;
+ text-align: center;
  
 }
 
@@ -1131,6 +1133,7 @@ section {
   
   color: #1A324A;
   font-size: 16px;
+  text-align: center;
 }
 
 
@@ -1776,18 +1779,20 @@ section {
   width: 100%;
   height: 100px;
   float: left;
+  
   z-index: 99;
 }
 
 .testimonial {
   min-height: 375px;
   position: relative;
-  background: url(/assets/img/testimonial/Banner.png);
+  background: url(/assets/img/testimonial/OVERLAY.png);
   padding-top: 50px;
   padding-bottom: 50px;
   background-position: center;
-      background-size: cover;
+  background-size: cover;
 }
+
 #testimonial4 .carousel-inner:hover{
 cursor: -moz-grab;
 cursor: -webkit-grab;
