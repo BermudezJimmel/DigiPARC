@@ -702,8 +702,8 @@ section {
 }
 
 .services .icon-box .icon {
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   background: #05417C;
   border-radius: 50px;
   display: flex;
@@ -748,7 +748,7 @@ section {
 }
 
 .services .icon img {
-  max-width: 80px;
+  max-width: 100px;
   
   /* padding-right: 4px; */
 }
