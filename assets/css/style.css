@@ -684,15 +684,21 @@ section {
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
   border-radius: 18px;
   border-bottom: 5px solid #fff;
+  
+  
 }
 
 .services .section-title{
   padding-bottom: 0px;
 }
 
+.services .section-title p{
+  padding-bottom: 30px;
+}
+
 .services .icon-box .icon {
-  width: 64px;
-  height: 64px;
+  width: 80px;
+  height: 80px;
   background: #05417C;
   border-radius: 50px;
   display: flex;
@@ -701,6 +707,7 @@ section {
   margin-bottom: 20px;
   transition: ease-in-out 0.3s;
   color: #fff;
+  
 }
 
 .services .icon-box .icon i {
@@ -711,6 +718,7 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
+  text-align: center;
 }
 
 .services .icon-box h4 a {
@@ -722,6 +730,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .services .icon-box:hover {
@@ -734,7 +743,8 @@ section {
 }
 
 .services .icon img {
-  max-width: 68px;
+  max-width: 80px;
+  
   /* padding-right: 4px; */
 }
 
