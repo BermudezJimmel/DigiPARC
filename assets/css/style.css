@@ -773,11 +773,20 @@ section {
 .services .btn-wrap {
   padding: 15px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 .services .btn-wrap a {
   padding: 15px;
+  padding-right: 25px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px;
 } 
 
 .services .btn-buy {
@@ -824,6 +833,7 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
 
 
 
@@ -1386,6 +1396,26 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#contact .btn-wrap i {
+  font-size: 20px;
+  display: inline-block;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+
+}
+
+#contact .btn-wrap a {
+  
+
+}
+
+
 .contact .info {
   width: 100%;
   background: #fff;
