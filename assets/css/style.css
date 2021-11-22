@@ -620,6 +620,27 @@ section {
   text-align: center;
 }
 
+/* Phone */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .section-title h2::after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 55px;
+      height: 3px;
+      background: #05417C;
+      bottom: 0;
+      left: 40%;
+      /* align-items: center; */
+    }
+  
+
+}
+
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
