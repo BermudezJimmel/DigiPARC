@@ -1,3 +1,21 @@
+<?php
+
+    $userName = $_POST['name'];
+    $userEmail = $_POST['email'];
+    $userSubject = $_POST['subject'];
+    $userMessage = $_POST['message'];
+
+    $to = "jimmel.bermudez@globaltronics.net";
+    $body = "";
+
+    $body .= "From: ".$userName. "\r\n";
+    $body .= "Email: ".$userEmail. "\r\n";
+    $body .= "Message: ".$userMessage. "\r\n";
+
+    mail($to, $userSubject, $body);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1205,7 +1223,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="index.php" method="post" role="form" class="php-email-form">
+            <form action="webform.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
