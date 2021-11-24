@@ -1,3 +1,7 @@
+<?php
+  
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -933,15 +937,6 @@
         <br>
         <h4>Great! We are offering a free hour if you book today!</h4>
       </div>
-        <br>
-      <div class="btn-wrap">.
-        <a data-toggle="modal" data-target="#Contact1Modal" href="#" class="get-started-btn scrollto"><i class="bx bxs-phone-call"></i>BOOK A CALL</a>
-        <!-- <a data-toggle="modal" data-target="#Contact2Modal" href="#" class="get-started-btn scrollto">I WANT TO CONTACT SOMEONE</a> -->
-        <!-- <a data-toggle="modal" data-target="#Contact1Modal" href="#" class="btn-buy">I’M INTERESTED IN FREE HOURS</a>
-        <a data-toggle="modal" data-target="#Contact2Modal" href="#" class="btn-buy">I WANT TO CONTACT SOMEONE</a> -->
-      </div>
-        <br>
-      
       <div class="section-title">
         <br>
         <h4>Reach out for a new project with us! </h4>
@@ -970,42 +965,7 @@
     </div>
   </section><!-- End Contact Us Section -->
 
-  <!-- Modal Contact Us 1-->
-
-  <div class="modal fade" id="Contact1Modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-body">
-          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button> -->
-
-          <!-- ======= Portfolio Details Section ======= -->
-          <section id="portfolio-details" class="portfolio-details">
-            <div class="container">
-              <div class="section-title pb-0">
-                <h2>I’M INTERESTED IN FREE HOURS</h2>
-
-                <!-- <h4>Are you planning to use our digital events place?</h4>
-                <br>
-                <h4>Great! We are offering a free hour if you book today!</h4> -->
-              </div>
-              <!-- klaviyo form  -->
-              <!-- <div class="klaviyo-form-SDJGXn"></div> -->
-            </div>
-          </section><!-- End Portfolio Details Section -->
-
-        </div>
-        <!-- <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div> -->
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal Contact Us 1-->
-
+  
   <!-- Modal Contact Us 2-->
 
   <div class="modal fade" id="Contact2Modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
@@ -1207,18 +1167,16 @@
     <!-- End Faq Section -->
 
     <!-- ======= Contact Section ======= -->
-    <!-- <section id="contact" class="contact">
+    <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
       </div>
 
-      <div>
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
-      </div>
+      
 
       <div class="container">
 
@@ -1229,19 +1187,20 @@
               <div class="address">
                 <i class="ri-map-pin-line"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>494 Lt. Artiaga St., Corazon De Jesus, San Juan City, Metro Manila, Philippines 1500</p>
               </div>
 
               <div class="email">
                 <i class="ri-mail-line"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p> <a href="mailto:inquiry@globaltronics.net">inquiry@globaltronics.net</a></p>
               </div>
 
               <div class="phone">
                 <i class="ri-phone-line"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p><a href="tel:0887212878">(02) 8721-2878</a></p>
+                <p>Sean : <a href="tel:09985405370">0998-540-5370</a></p>
               </div>
 
             </div>
@@ -1250,7 +1209,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="webform.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -1282,7 +1241,11 @@
         </div>
 
       </div>
-    </section> -->
+
+      <!-- <div>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+      </div> -->
+    </section>
     <!-- End Contact Section -->
 
 
