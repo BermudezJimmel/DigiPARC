@@ -991,7 +991,7 @@
                 <h4>Great! We are offering a free hour if you book today!</h4> -->
               </div>
               <!-- klaviyo form  -->
-              <div class="klaviyo-form-SDJGXn"></div>
+              <!-- <div class="klaviyo-form-SDJGXn"></div> -->
             </div>
           </section><!-- End Portfolio Details Section -->
 
@@ -1026,8 +1026,14 @@
                 <br>
                 <h4>Great! We are offering a free hour if you book today!</h4> -->
               </div>
+              
+
+
+
               <!-- klaviyo form  -->
-              <div class="klaviyo-form-SDJGXn"></div>
+              <!-- <div class="klaviyo-form-SDJGXn"></div> -->
+
+
             </div>
           </section><!-- End Portfolio Details Section -->
 
