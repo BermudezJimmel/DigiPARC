@@ -961,48 +961,6 @@
     </div>
   </section><!-- End Contact Us Section -->
 
-  
-  <!-- Modal Contact Us 2-->
-
-  <div class="modal fade" id="Contact2Modal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-body">
-          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button> -->
-
-          <!-- ======= Portfolio Details Section ======= -->
-          <section id="portfolio-details" class="portfolio-details">
-            <div class="container">
-              <div class="section-title pb-0">
-                <h2>I WANT TO CONTACT SOMEONE</h2>
-
-                <!-- <h4>Are you planning to use our digital events place?</h4>
-                <br>
-                <h4>Great! We are offering a free hour if you book today!</h4> -->
-              </div>
-              
-
-
-
-              <!-- klaviyo form  -->
-              <!-- <div class="klaviyo-form-SDJGXn"></div> -->
-
-
-            </div>
-          </section><!-- End Portfolio Details Section -->
-
-        </div>
-        <!-- <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div> -->
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal Contact Us 2-->
 
 
 
