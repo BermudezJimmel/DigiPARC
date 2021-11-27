@@ -1,3 +1,21 @@
+<?php
+
+    $userName = $_POST['name'];
+    $userEmail = $_POST['email'];
+    $userSubject = $_POST['subject'];
+    $userMessage = $_POST['message'];
+
+    $to = "jimmel.bermudez@globaltronics.net";
+    $body = "";
+
+    $body .= "From: ".$userName. "\r\n";
+    $body .= "Email: ".$userEmail. "\r\n";
+    $body .= "Message: ".$userMessage. "\r\n";
+
+    mail($to, $userSubject, $body);
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,8 +23,8 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>DigiPARC</title>
-  <meta content="" name="description">
+  <title>DigiPARC - revert please</title>
+  <meta content="" name="description">  
   <meta content="" name="keywords">
 
   <!-- Favicons -->
@@ -1231,9 +1249,9 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
- 
-          </div> 
-  
+
+          </div>
+
         </div>
 
       </div>
