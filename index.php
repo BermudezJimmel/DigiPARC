@@ -1,21 +1,3 @@
-<?php
-
-    $userName = $_POST['name'];
-    $userEmail = $_POST['email'];
-    $userSubject = $_POST['subject'];
-    $userMessage = $_POST['message'];
-
-    $to = "jimmel.bermudez@globaltronics.net";
-    $body = "";
-
-    $body .= "From: ".$userName. "\r\n";
-    $body .= "Email: ".$userEmail. "\r\n";
-    $body .= "Message: ".$userMessage. "\r\n";
-
-    mail($to, $userSubject, $body);
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>DigiPARC - revert please</title>
+  <title>DigiPARC</title>
   <meta content="" name="description">  
   <meta content="" name="keywords">
 
