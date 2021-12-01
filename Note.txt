@@ -6,4 +6,6 @@ PHPMAILER
 Contact Sir Sean to "Turn On Allow Less Secure Apps" in Google Workspace to receive Email Enquiry from DigiPARC Website and other GGC Websites
 Manage your Google Account > Security > Less secure app access > Allow less secure apps: TURN ON. 
 
+Status: DONE
+
 ######################################################################################################################
