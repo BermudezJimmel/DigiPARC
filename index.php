@@ -1253,53 +1253,7 @@
   <!-- klaviyo snippet  -->
   <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=S8uMWC"></script>
 
-  <!-- PHPMailer -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript">
-    function sendEmail(){
-      var name = $("#name");
-      var email = $("#email");
-      var subject = $("#subject");
-      var body = $("#body");
-
-      if(isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)){
-        $.ajax({
-          url: 'sendEmail.php',
-          method: 'POST'
-          dataType: 'json',
-          data:{
-            name: name.val(),
-            email: email.val(),
-            subject: subject.val(),
-            body: body.val()
-          }, success: function(response){
-            $('#myForm')[0].reset();
-            $('.sent-notification').text("Message sent successfully.");
-
-          }
-            
-
-        });
-
-      }
-    }
-
-    function isNotEmpty(caller){
-<<<<<<< HEAD
-      if(caller.val())
-=======
-      if(caller.val() == ""){
-        caller.css('border','1px solid red');
-        return false;
-      }
-      else{
-        caller.css('border', '');
-        return true;
-      }
->>>>>>> 7cde5a81b042346d77971d3e100a63111c694351
-    }
-  </script>
-
+ 
 </body>
 
 </html>
