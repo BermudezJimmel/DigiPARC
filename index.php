@@ -1162,8 +1162,8 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="webform.php" method="post" role="form" class="php-email-form">
+            <h4 class="sent-notification"></h4>
+            <form id="myForm" action="webform.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -1179,7 +1179,7 @@
                 <div class="validate"></div>
               </div>
               <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <textarea class="form-control" name="message" rows="5" id="body" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                 <div class="validate"></div>
               </div>
               <div class="mb-3">
@@ -1187,7 +1187,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" onclick="sendEmail()">Send Message</button></div>
             </form>
 
           </div>
@@ -1252,6 +1252,49 @@
 
   <!-- klaviyo snippet  -->
   <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=S8uMWC"></script>
+
+  <!-- PHPMailer -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript">
+    function sendEmail(){
+      var name = $("#name");
+      var email = $("#email");
+      var subject = $("#subject");
+      var body = $("#body");
+
+      if(isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)){
+        $.ajax({
+          url: 'sendEmail.php',
+          method: 'POST'
+          dataType: 'json',
+          data:{
+            name: name.val(),
+            email: email.val(),
+            subject: subject.val(),
+            body: body.val()
+          }, success: function(response){
+            $('#myForm')[0].reset();
+            $('.sent-notification').text("Message sent successfully.");
+
+          }
+            
+
+        });
+
+      }
+    }
+
+    function isNotEmpty(caller){
+      if(caller.val() == ""){
+        caller.css('border','1px solid red');
+        return false;
+      }
+      else{
+        caller.css('border', '');
+        return true;
+      }
+    }
+  </script>
 
 </body>
 
