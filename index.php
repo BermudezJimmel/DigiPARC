@@ -185,7 +185,7 @@
               <center>
                 <div class="icon"><img src="/assets/img/icons/MULTI-PURPOSE ROOMS PERFECT FOR PRE AND POST-PRODUCTION.png" alt=""></div>
               </center>
-              
+          
               <!-- <div class="icon"><i class="bx bx-world"></i></div> -->
               <h4><a href="">MULTI-PURPOSE ROOMS PERFECT FOR PRE AND POST-PRODUCTION</a></h4>
               <p>Aside from the digital spaces provided, DigiPARC can also facilitate your preparations before your shoot day with our multifunctional rooms close to digital spaces.</p>
