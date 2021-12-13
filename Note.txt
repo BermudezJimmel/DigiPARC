@@ -9,3 +9,46 @@ Manage your Google Account > Security > Less secure app access > Allow less secu
 Status: DONE
 
 ######################################################################################################################
+
+
+OLD CONTACT US
+
+<!-- ======= Contact Us Section ======= -->
+  <section id="contact" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact Us</h2>
+        <h4>Are you planning to use our digital events place?</h4>
+        <br>
+        <h4>Great! We are offering a free hour if you book today!</h4>
+      </div>
+      <div class="section-title">
+        <br>
+        <h4>Reach out for a new project with us! </h4>
+        <br>
+        <h4>Don’t worry, DigiPARC is a safe and joyful place for you.</h4>
+
+        <br>
+        <br>
+        <h4>Follow our social media accounts</h4>
+        
+        </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/GlobaltronicsPH/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <!-- <a href="https://twitter.com/globaltronicsph?lang=en" class="twitter"><i class="bx bxl-twitter"></i></a>         -->
+        <a href="https://www.instagram.com/globaltronicsph/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.youtube.com/c/GlobaltronicsPH" class="youtube"><i class="bx bxl-youtube"></i></a>
+        <!-- <a href="https://ph.linkedin.com/company/globaltronicsphl" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+      </div>
+      <div class="section-title">
+        <br>
+        <h4>For more details, you can send us a message and book a reservation with us! </h4>
+        <br>
+        <h4>Call <a href="tel:0887212878">(02) 8721-2878</a> or Sean at <a href="tel:09985405370">0998-540-5370.</a></h4>
+      </div>
+      
+    </div>
+  </section>
+  <!-- End Contact Us Section -->
+
+  ######################################################################################################################
