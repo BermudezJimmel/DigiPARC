@@ -185,7 +185,7 @@
               <center>
                 <div class="icon"><img src="/assets/img/icons/MULTI-PURPOSE ROOMS PERFECT FOR PRE AND POST-PRODUCTION.png" alt=""></div>
               </center>
-              
+          
               <!-- <div class="icon"><i class="bx bx-world"></i></div> -->
               <h4><a href="">MULTI-PURPOSE ROOMS PERFECT FOR PRE AND POST-PRODUCTION</a></h4>
               <p>Aside from the digital spaces provided, DigiPARC can also facilitate your preparations before your shoot day with our multifunctional rooms close to digital spaces.</p>
@@ -1162,7 +1162,7 @@
           </div>
 
           <div class="col-lg-8 mt-5 mt-lg-0">
-
+            <h4 class="sent-notification"></h4>
             <form action="webform.php" method="post" role="form" class="php-email-form">
               <div class="form-row">
                 <div class="col-md-6 form-group">
@@ -1252,6 +1252,42 @@
 
   <!-- klaviyo snippet  -->
   <script async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=S8uMWC"></script>
+
+  <!-- PHPMailer -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript">
+    function sendEmail(){
+      var name = $("#name");
+      var email = $("#email");
+      var subject = $("#subject");
+      var body = $("#body");
+
+      if(isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)){
+        $.ajax({
+          url: 'sendEmail.php',
+          method: 'POST'
+          dataType: 'json',
+          data:{
+            name: name.val(),
+            email: email.val(),
+            subject: subject.val(),
+            body: body.val()
+          }, success: function(response){
+            $('#myForm')[0].reset();
+            $('.sent-notification').text("Message sent successfully.");
+
+          }
+            
+
+        });
+
+      }
+    }
+
+    function isNotEmpty(caller){
+      if(caller.val())
+    }
+  </script>
 
 </body>
 
