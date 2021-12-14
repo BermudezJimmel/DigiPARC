@@ -1842,7 +1842,7 @@ section {
 .testimonial {
   min-height: 375px;
   position: relative;
-  background: url(/assets/img/testimonial/OVERLAY.png);
+  background: url(/assets/img/testimonial/OVERLAY.webp);
   padding-top: 50px;
   padding-bottom: 50px;
   background-position: center;
