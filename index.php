@@ -27,6 +27,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet"> 
 
+  <!-- google recaptcha -->
+  <script src="https://www.google.com/recaptcha/api.js"></script>
+
   <!-- =======================================================
   * Template Name: DigiPARC - v2.2.1
   * Template URL: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/
@@ -49,7 +52,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top "> 
     <div class="container-fluid">
 
       <div class="row justify-content-center">
@@ -60,7 +63,7 @@
 
           <nav class="nav-menu d-none d-lg-block">
             <ul>
-              <li class="active"><a href="index.html">Home</a></li>
+              <li class="active"><a href="digiparc.globaltronics.net">Home</a></li>
               <!-- <li><a href="#about">About</a></li> -->
               <li><a href="#services">About</a></li>
               <li><a href="#pricing">Studio</a></li>   
@@ -1172,6 +1175,31 @@
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="g-recaptcha brochure__form__captcha" data-sitekey="YOUR SITE KEY"></div>
+              <?php 
+              $recaptcha = $_POST['g-recaptcha-response'];
+              $res = reCaptcha($recaptcha);
+              if(!$res['success']){
+                // Error
+              }
+
+              function reCaptcha($recaptcha){
+                $secret = "YOUR SECRET KEY";
+                $ip = $_SERVER['REMOTE_ADDR'];
+              
+                $postvars = array("secret"=>$secret, "response"=>$recaptcha, "remoteip"=>$ip);
+                $url = "https://www.google.com/recaptcha/api/siteverify";
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_URL, $url);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $postvars);
+                $data = curl_exec($ch);
+                curl_close($ch);
+              
+                return json_decode($data, true);
+              }
+              ?>
             </form>
 
           </div>
